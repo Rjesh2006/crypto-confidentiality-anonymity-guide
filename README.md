@@ -63,6 +63,39 @@ This repository explains key technologies that protect **confidentiality** (hidi
 
 ---
 
+
+# Confidentiality & Anonymity in Blockchain
+
+This repository explores how confidentiality and anonymity work in blockchain systems, including the main cryptographic building blocks of **zk-SNARKs** and the techniques governments use to trace illicit blockchain activity.
+
+---
+
+## 🛡 Government Tactics to Trace Transactions
+Even in privacy-focused cryptocurrencies, governments and law enforcement agencies use multiple methods to deanonymize users:
+
+1. **Blockchain Analytics** — Using specialized software to analyze transaction patterns and connections.
+2. **Honeypots** — Deploying fake or controlled entities to interact with suspects and capture information.
+3. **Subpoenas to Exchanges** — Legally compelling exchanges to share user account data linked to wallets.
+4. **Exploiting Privacy Protocol Flaws** — Finding vulnerabilities or implementation mistakes in privacy systems.
+
+---
+
+## 🔑 Main Ingredients of zk-SNARKs
+zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge) allow one party to prove knowledge of information without revealing it.  
+They are built from four key cryptographic components:
+
+1. **Elliptic Curve Cryptography (ECC)** — For secure, efficient operations on public/private keys.
+2. **Polynomial Commitments** — To bind a prover to a set of values without revealing them.
+3. **Quadratic Arithmetic Programs (QAPs)** — For expressing computations in a form suitable for zero-knowledge proofs.
+4. **Pairing-Based Cryptography** — To verify proofs efficiently using mathematical pairings.
+
+---
+
+## 📜 License
+This project is open-sourced under the MIT License.
+
+
+
 ## How Governments & Law Enforcement Deanonymize
 
 ### **1. Blockchain Analytics**

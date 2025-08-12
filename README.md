@@ -63,63 +63,54 @@ This repository explains key technologies that protect **confidentiality** (hidi
 
 ---
 
+## 🔍 How Investigators Trace Blockchain Transactions
 
-# Confidentiality & Anonymity in Blockchain
+Despite privacy-focused technologies, blockchain transactions can still be traced using a variety of methods:
 
-This repository explores how confidentiality and anonymity work in blockchain systems, including the main cryptographic building blocks of **zk-SNARKs** and the techniques governments use to trace illicit blockchain activity.
+1. **Blockchain Analytics**  
+   Specialized tools (like Chainalysis, CipherTrace, etc.) analyze transaction patterns, wallet clustering, and transaction graph analysis to identify links between addresses.
 
----
+2. **Honeypots**  
+   Investigators may set up "bait" wallets or services to attract illegal actors, allowing them to track incoming and outgoing transactions.
 
-## 🛡 Government Tactics to Trace Transactions
-Even in privacy-focused cryptocurrencies, governments and law enforcement agencies use multiple methods to deanonymize users:
+3. **Subpoenas to Exchanges**  
+   Law enforcement agencies can issue legal requests to cryptocurrency exchanges, requiring them to reveal the identity behind specific wallet addresses.
 
-1. **Blockchain Analytics** — Using specialized software to analyze transaction patterns and connections.
-2. **Honeypots** — Deploying fake or controlled entities to interact with suspects and capture information.
-3. **Subpoenas to Exchanges** — Legally compelling exchanges to share user account data linked to wallets.
-4. **Exploiting Privacy Protocol Flaws** — Finding vulnerabilities or implementation mistakes in privacy systems.
-
----
-
-## 🔑 Main Ingredients of zk-SNARKs
-zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge) allow one party to prove knowledge of information without revealing it.  
-They are built from four key cryptographic components:
-
-1. **Elliptic Curve Cryptography (ECC)** — For secure, efficient operations on public/private keys.
-2. **Polynomial Commitments** — To bind a prover to a set of values without revealing them.
-3. **Quadratic Arithmetic Programs (QAPs)** — For expressing computations in a form suitable for zero-knowledge proofs.
-4. **Pairing-Based Cryptography** — To verify proofs efficiently using mathematical pairings.
+4. **Exploiting Privacy Protocol Flaws**  
+   Weaknesses in privacy protocols (e.g., timing leaks, metadata leaks, or improper use of mixers) can be exploited to deanonymize transactions.
 
 ---
 
-## 📜 License
-This project is open-sourced under the MIT License.
+## 🛡️ zk-SNARKs: The Four Main Ingredients
 
+zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge) are a cornerstone of blockchain privacy systems like Zcash.  
+They allow one party to prove they know a value (e.g., a transaction's secret key) without revealing the value itself — and without interaction between prover and verifier.
 
+Here are the **four main cryptographic ingredients** that make zk-SNARKs possible:
 
-## How Governments & Law Enforcement Deanonymize
+1. **Polynomial Arithmetic over Finite Fields**  
+   - All zk-SNARK computations happen in a finite mathematical space where numbers wrap around a fixed prime.  
+   - This allows secure and efficient representation of computations as algebraic equations.
 
-### **1. Blockchain Analytics**
-- Cluster related addresses, trace fund flows to exchanges or known entities.
-- Identify patterns even in mixed or shielded transactions.
-- Tools: Chainalysis, Elliptic, CipherTrace.
+2. **Quadratic Arithmetic Programs (QAPs)**  
+   - Transform arbitrary computations into polynomial equations.  
+   - Every program is represented in a way that lets verifiers check correctness without re-executing the program.
 
-### **2. Honeypots**
-- Fake wallets, mixers, or services that attract privacy-seeking users.
-- Collect IP addresses, browser metadata, and blockchain addresses.
-- Can lead to direct identification.
+3. **Elliptic Curve Pairings**  
+   - Special cryptographic operations on elliptic curves enable succinct proofs.  
+   - These pairings allow verification of proofs with extremely small proof sizes and fast verification times.
 
-### **3. Subpoenas to Exchanges**
-- Target KYC/AML-compliant exchanges for user data.
-- Exchanges act as on/off-ramps linking blockchain addresses to real identities.
+4. **Homomorphic Encryption / Commitment Schemes**  
+   - Enable mathematical operations to be carried out on encrypted values without decrypting them.  
+   - This ensures that the verifier learns nothing except the validity of the statement.
 
-### **4. Exploiting Protocol Flaws**
-- Example: Small Monero ring sizes in early versions allowed partial tracing.
-- Weak implementations or cryptographic parameters can leak data.
-- User mistakes like address reuse also break privacy.
+---
 
-### **5. Network-Level Surveillance**
-- Monitor IP traffic and timing correlations to link transactions to users.
-- Use of VPN/Tor reduces risk but is not foolproof.
+## 📚 Why This Matters
+
+While privacy technologies protect users’ financial confidentiality, they also pose challenges for law enforcement.  
+Understanding both sides — **how privacy works** and **how it’s attacked** — is key to building robust, ethical blockchain systems.
+
 
 ### **6. Human Factors**
 - Undercover infiltration of forums, marketplaces, or wallet support channels.

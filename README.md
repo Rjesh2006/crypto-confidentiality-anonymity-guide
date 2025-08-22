@@ -132,3 +132,4 @@ To provide a brief but clear overview of privacy tools, their cryptographic foun
 ---
 
 *refrences* [(https://chain.link/education-hub/zero-knowledge-rollup)]
+![Daily To-Do List](https://raw.githubusercontent.com/Rjesh2006/crypto-confidentiality-anonymity-guide/main/Daily%20To-Do%20List.png)

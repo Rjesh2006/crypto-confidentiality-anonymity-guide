@@ -37,4 +37,5 @@ This repository explains key technologies that protect **confidentiality** (hidi
 * **Hardware Security Module (HSM)** – Dedicated hardware for managing cryptographic operations securely.
 
 *refrences* [(https://chain.link/education-hub/zero-knowledge-rollup)]
-![Daily To-Do List](https://raw.githubusercontent.com/Rjesh2006/crypto-confidentiality-anonymity-guide/main/Daily%20To-Do%20List.png)
+### Here is the relational flowchart that simplifies the concepts and makes them easier to understand through a structured flow.
+![Structured_Flowchart ](https://raw.githubusercontent.com/Rjesh2006/crypto-confidentiality-anonymity-guide/main/Daily%20To-Do%20List.png)

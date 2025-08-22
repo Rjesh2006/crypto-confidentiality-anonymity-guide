@@ -36,6 +36,8 @@ This repository explains key technologies that protect **confidentiality** (hidi
 * **Secure Boot** – Verifies the integrity of the system boot process to prevent tampering.
 * **Hardware Security Module (HSM)** – Dedicated hardware for managing cryptographic operations securely.
 
-*refrences* [(https://chain.link/education-hub/zero-knowledge-rollup)]
+### 🔄 Upcoming Updates (Work in Progress…)
+
+**Refrences** [(https://chain.link/education-hub/zero-knowledge-rollup)]
 ### Here is the relational flowchart that simplifies the concepts and makes them easier to understand through a structured flow.
 ![Structured_Flowchart ](https://raw.githubusercontent.com/Rjesh2006/crypto-confidentiality-anonymity-guide/main/Daily%20To-Do%20List.png)

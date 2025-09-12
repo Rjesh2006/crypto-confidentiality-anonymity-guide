@@ -179,7 +179,7 @@ Used where devices communicate wirelessly.
 
 Below is the visual flowchart that summarizes the concepts discussed above. It’s structured to represent communication methods, encryption mechanisms, OSI/TCP security layers, and advanced topics in a clean and organized manner.
 
-![Privacy in Communication Systems Flowchart](./flowchart.svg)
+<img width="1883" height="2256" alt="flowchart" src="https://github.com/user-attachments/assets/c6b44f42-fa82-49c1-a347-6ef3f89af15a" />
 
 > The flowchart helps in understanding the relationships between transmission types, encryption methods, authentication protocols, and network layers.
 

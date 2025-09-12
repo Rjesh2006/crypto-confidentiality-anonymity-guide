@@ -1,7 +1,7 @@
 
 # 📡🔐 Privacy in Communication Systems
 
-This repository explores **Privacy in Communication Systems**, covering encryption methods, authentication mechanisms, key establishment protocols, OSI/TCP model security mapping, and real-world use cases. The content is structured to help you understand how data is securely transmitted across different communication channels.
+This repository file explores **Privacy in Communication Systems**, covering encryption methods, authentication mechanisms, key establishment protocols, OSI/TCP model security mapping, and real-world use cases. The content is structured to help you understand how data is securely transmitted across different communication channels.
 
 At the bottom of this document, you’ll find a **flowchart diagram (SVG format)** that visualizes these concepts in an organized manner.
 

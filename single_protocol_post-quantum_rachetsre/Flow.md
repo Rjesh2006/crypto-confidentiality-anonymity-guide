@@ -14,7 +14,7 @@
 
 ---
 
-## 1. Introduction and Motivation
+## 1. Introduction 
 
 ### 1.1 Background of Secure Messaging  
 Importance of privacy, emergence of Signal Protocol for secure communication.

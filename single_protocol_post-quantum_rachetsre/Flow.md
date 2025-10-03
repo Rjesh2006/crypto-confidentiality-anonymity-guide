@@ -179,5 +179,5 @@ Long-term benefits and readiness.
 Signal’s path toward future security improvements.
 
 ---
-***here we have the mind-map to get think in structured way*
-   - ![My First Board](https://github.com/user-attachments/assets/093aef77-91c5-4dcc-8d94-290c5c747fba)
+***here we have the mind-map to get think in structured way***
+    ![My First Board](https://github.com/user-attachments/assets/093aef77-91c5-4dcc-8d94-290c5c747fba)

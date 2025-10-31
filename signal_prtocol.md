@@ -116,18 +116,18 @@ Once X3DH establishes the Root Key, the Double Ratchet algorithm takes over:
 
 ### What Signal Protocol Protects Against
 
-✅ **Perfect Forward Secrecy**: Compromised long-term keys do not compromise past messages  
-✅ **Replay Attack Prevention**: Signed pre-keys and ratcheting prevent message replay  
-✅ **Man-in-the-Middle (MITM) Prevention**: Identity key authentication prevents imposters  
-✅ **Passive Eavesdropping**: End-to-end encryption prevents server from reading messages  
-✅ **Key Compromise**: One-time pre-keys and ratcheting limit damage from compromised keys  
+ **Perfect Forward Secrecy**: Compromised long-term keys do not compromise past messages  
+ **Replay Attack Prevention**: Signed pre-keys and ratcheting prevent message replay  
+ **Man-in-the-Middle (MITM) Prevention**: Identity key authentication prevents imposters  
+ **Passive Eavesdropping**: End-to-end encryption prevents server from reading messages  
+ **Key Compromise**: One-time pre-keys and ratcheting limit damage from compromised keys  
 
 ### What Signal Protocol Does NOT Protect Against
 
-❌ Metadata (who talks to whom, when, message count)  
-❌ Compromised devices running the application  
-❌ Physical attacks on devices in use  
-❌ Quantum computers (unless using PQKEM hybrid variant)
+ Metadata (who talks to whom, when, message count)  
+ Compromised devices running the application  
+ Physical attacks on devices in use  
+ Quantum computers (unless using PQKEM hybrid variant)
 
 ---
 
